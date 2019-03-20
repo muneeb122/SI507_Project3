@@ -5,7 +5,7 @@ This project will enable a user to add movies along with their directors and gen
 
 Information accessible to the user through various routes include:
 * Number of movies in the database
-* All contents in the database
+* All contents of the database
 * Surprise message
 
 
@@ -24,7 +24,7 @@ Three tables are created in the database: movies, directors, and genres. The rel
 
 Four routes are available to the user in the flask application:
 * (/) - Displays the number of movies in the database
-* (/movie/new/<name>/<director>/<genre>/) - Allows the user to add a new movie to the database
+* (/movie/new/[name>]/[director]/[genre]/) - Allows the user to add a new movie to the database
 * (/all_movies) - Displays all movies in the database along with their respective directors and genres
 * (/other) - Displays a surprise message
 
